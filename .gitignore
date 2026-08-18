@@ -1,0 +1,9 @@
+.gradle/
+**/build/
+**/node_modules/
+**/.vitest-cache/
+*.keystore
+*.jks
+local.properties
+work/
+.smoke-dsh-home/

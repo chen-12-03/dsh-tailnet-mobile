@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DSH Mobile</string>
+    <string name="subtitle">Tailnet Harness 控制台</string>
+    <string name="connection_title">SSH 连接</string>
+    <string name="connect_tailscale">连接 / 打开 Tailscale</string>
+    <string name="host_hint">电脑 Tailscale IP 或 MagicDNS</string>
+    <string name="port_hint">SSH 端口</string>
+    <string name="user_hint">Windows 用户名</string>
+    <string name="password_hint">Windows 密码（仅保存在内存）</string>
+    <string name="unlock">连接并解锁</string>
+    <string name="lock">锁定并清除密码</string>
+    <string name="control_title">DSH Web</string>
+    <string name="start">启动</string>
+    <string name="status">状态</string>
+    <string name="stop">停止</string>
+    <string name="links_title">访问入口</string>
+    <string name="open_mobile">打开移动端 Web</string>
+    <string name="open_desktop">打开原始 Web</string>
+    <string name="copy_links">复制两个网址</string>
+    <string name="reset_host_key">重置信任的 SSH 主机密钥</string>
+    <string name="log_title">最近结果</string>
+    <string name="security_note">密码不写入磁盘；关闭或锁定应用后清除。SSH 主机公钥会保存。所有 Web 访问均通过 Tailscale Serve HTTPS。</string>
+</resources>

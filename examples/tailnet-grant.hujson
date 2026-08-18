@@ -1,0 +1,10 @@
+// Replace the four placeholders before merging this object into the top-level grants array.
+// PHONE_DEVICE can also be a Tailscale user, group, or tag selector.
+{
+  "src": ["PHONE_DEVICE"],
+  "dst": ["HARNESS_COMPUTER"],
+  "ip": ["tcp:443", "tcp:22"],
+  "app": {
+    "TAILNET_DNS_SUFFIX/cap/dsh-mobile": [{}],
+  },
+}
