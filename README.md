@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DSH Tailnet Mobile
 
 > 基于组网的远程控制：通过 Tailscale 组网，在不同网络下从 Android 手机启动、停止并使用 DeepSeek Harness 移动端界面。移动端和原始 Web 都通过 Tailscale Serve 的 HTTPS 入口访问。
@@ -54,3 +55,6 @@ DSH 本体始终使用安全的 `127.0.0.1:3080`，不需要也不允许 `dsh we
 ## License
 
 Apache-2.0。插件基于 `@linxin666/dsh-remote-web-ui` 的 Apache-2.0 代码修改并保留原许可。
+=======
+# dsh-tailnet-mobile
+>>>>>>> 67ca53082f9dd23055acc312a3a3a8c2d5488a9e
